@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Fórum de Apoio Cultural e Social</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .forum-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="forum-container">
+    <h1>Fórum de Apoio Cultural e Social</h1>
+    <p style="text-align:center;">Compartilhe suas experiências e leia as histórias de outras pessoas!</p>
+
+    <div id="disqus_thread"></div>
+    <script>
+      var disqus_config = function () {
+        this.page.url = 'https://arthuraraujo96.github.io/-MiReAcoLH-/';  // URL da sua página
+        this.page.identifier = 'mireacolh'; // Identificador único do seu site
+      };
+
+      (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://mireacolh.disqus.com/embed.js';  // Substitua "mireacolh" se for diferente
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Por favor, ative o JavaScript para visualizar os comentários do Disqus.</noscript>
+  </div>
+
+</body>
+</html>
